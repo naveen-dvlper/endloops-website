@@ -3,7 +3,7 @@
 A five-page marketing site for Endloops (Home, Solutions, Tools, About, Contact), built as a design-and-build assignment.
 The messaging covers both product types: end-to-end solutions and standalone tools.
 
-Live site: <add your deployed link here>
+Live site: endloops.netlify.app
 
 ## Stack
 
@@ -48,7 +48,7 @@ src/index.css            colour tokens, fonts, reduced-motion rules
 
 ## AI use
 
-**Claude (Anthropic):** research and planning. I used it to understand the brief,
+- **Claude (Anthropic):** research and planning. I used it to understand the brief,
   plan the page structure, and draft messaging ideas. I also had it review my code and help
   with fixes: the logo path in production, SPA rewrites, removing unused files and
   dependencies, and adding the brand colour tokens.
