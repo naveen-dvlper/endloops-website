@@ -48,7 +48,17 @@ src/index.css            colour tokens, fonts, reduced-motion rules
 
 ## AI use
 
-<Describe which AI tools you used and for what, and which parts you wrote or changed yourself.>
+**Claude (Anthropic):** research and planning. I used it to understand the brief,
+  plan the page structure, and draft messaging ideas. I also had it review my code and help
+  with fixes: the logo path in production, SPA rewrites, removing unused files and
+  dependencies, and adding the brand colour tokens.
+- **Gemini (Google AI Studio):** generated the initial website structure and React code
+  (pages, components, routing and data file).
+- **What I did myself:** designed the layout direction and palette,
+  reviewed, edited and fixed the errors and bugs in the code, tested responsiveness and accessibility, deployed the site.
+
+I reviewed the generated code and can explain how the routing, the contact form validation
+and the interactive demos work.
 
 ## Confidentiality
 
