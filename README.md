@@ -3,7 +3,7 @@
 A five-page marketing site for Endloops (Home, Solutions, Tools, About, Contact), built as a design-and-build assignment.
 The messaging covers both product types: end-to-end solutions and standalone tools.
 
-Live site: endloops.netlify.app
+Live site: [endloops.netlify.app](https://endloops.netlify.app)
 
 ## Stack
 
