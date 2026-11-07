@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  /* Endloops palette: navy text/structure, logo green, blue and purple accents */
+  --color-slate-950: #0b1130;
+  --color-slate-900: #111a4a;
+  --color-slate-800: #1b2566;
+
+  --color-brand-50: #ebf9f2;
+  --color-brand-200: #b4e6cd;
+  --color-brand-400: #3cc78c;
+  --color-brand-600: #0aa86a;
+  --color-brand-700: #067a4e;
+
+  --color-accent-blue: #2f6fed;
+  --color-accent-purple: #6b4eff;
+
+  --font-display: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: "DM Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* dark call-to-action band with a soft blue/purple glow */
+.band {
+  background:
+    radial-gradient(60% 140% at 100% 0%, rgba(107, 78, 255, 0.38), transparent 60%),
+    radial-gradient(50% 120% at 0% 100%, rgba(47, 111, 237, 0.28), transparent 60%),
+    var(--color-slate-900);
+}
